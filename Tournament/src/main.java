@@ -22,9 +22,6 @@ public class main extends PApplet {
     public void draw(){
     	
     	
-    	asdadsada
-    	helo nib
-    	
-    	ehehehehheheh
+    	println("helo nib");
     }
 }
