@@ -20,6 +20,11 @@ public class main extends PApplet {
 
     // identical use to draw in Prcessing IDE
     public void draw(){
-
+    	
+    	
+    	asdadsada
+    	helo nib
+    	
+    	ehehehehheheh
     }
 }
