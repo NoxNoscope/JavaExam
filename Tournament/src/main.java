@@ -22,6 +22,6 @@ public class main extends PApplet {
     public void draw(){
     	
     	
-    	println("helo nib");
+    	
     }
 }
