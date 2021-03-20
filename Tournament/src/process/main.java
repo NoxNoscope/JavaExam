@@ -1,17 +1,21 @@
 package process;
 import processing.core.PApplet;
 
+import process.client;
+
 public class main extends PApplet {
+	
 
     // The argument passed to main must match the class name
     public static void main(String[] args) {
         PApplet.main("process.main");
+        
     }
 
     // method used only for setting the size of the window
     public void settings(){
     	size(500,500);
-        
+    	//diegoSettings();
     }
 
 
@@ -24,4 +28,11 @@ public class main extends PApplet {
     public void draw(){
         line(0, 0, 500, 500);
     }
+    
+    
+    private void diegoSettings() {
+    	client startClient = new client("127.0.0.1");
+    	startClient.startClient();
+    }
+    
 }
