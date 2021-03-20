@@ -17,7 +17,7 @@ public class main extends PApplet {
 
     // identical use to setup in Processing IDE except for size()
     public void setup(){
-        strokeWeight(10);
+        strokeWeight(5);
     }
 
     // identical use to draw in Prcessing IDE
