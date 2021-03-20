@@ -10,15 +10,13 @@ public class main extends PApplet {
 
     // method used only for setting the size of the window
     public void settings(){
-    	size(500,5000);
+    	size(500,500);
         
     }
 
 
     // identical use to setup in Processing IDE except for size()
     public void setup(){
-        background(0);
-        stroke(255);
         strokeWeight(10);
     }
 
