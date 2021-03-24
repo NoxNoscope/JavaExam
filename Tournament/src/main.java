@@ -9,7 +9,7 @@ public class main extends PApplet {
 
     // method used only for setting the size of the window
     public void settings(){
-    	size(500,500);
+    	size(1920,1080);
         
     }
 
@@ -20,8 +20,7 @@ public class main extends PApplet {
 
     // identical use to draw in Prcessing IDE
     public void draw(){
-    	
-    	
+    	rect(500,500,250,250);
     	println("helo nib");
     }
 }
