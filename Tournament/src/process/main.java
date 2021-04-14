@@ -1,10 +1,12 @@
+package process;
+
 import processing.core.PApplet;
 
 public class main extends PApplet {
 
     // The argument passed to main must match the class name
     public static void main(String[] args) {
-        PApplet.main("main");
+        PApplet.main("process.main");
     }
 
     // method used only for setting the size of the window
