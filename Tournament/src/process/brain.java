@@ -1,7 +1,6 @@
+
 package process;
 import processing.core.PApplet;
-
-import process.client;
 
 public class brain extends PApplet {
 	
@@ -21,7 +20,12 @@ public class brain extends PApplet {
 
     // identical use to setup in Processing IDE except for size()
     public void setup(){
-        strokeWeight(5);
+        String teams = "The Fuck-Knuckles,. Diengos,. Salty Mercenaries,. DimitriTryhard,. DaddyTorben,. London Gingers,. Grey Dodgers,. New York Hippos,. Sandmen,. Purple Koalas,. Pulse,. Purple Blue Bottles,. Hilarious Newts,. Devon Giraffes,. Red Flyers,. Conditioneers";
+        String[] list = split(teams, '.');
+        saveStrings("teams.txt",list);
+        
+        String[] Poopie = loadStrings("teams.txt");
+        println(Poopie);
     }
 
     // identical use to draw in Processing IDE
