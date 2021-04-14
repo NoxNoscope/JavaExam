@@ -1,38 +1,26 @@
-package process;
 import processing.core.PApplet;
 
-import process.client;
-
 public class main extends PApplet {
-	
 
     // The argument passed to main must match the class name
     public static void main(String[] args) {
-        PApplet.main("process.main");
-        
+        PApplet.main("main");
     }
 
     // method used only for setting the size of the window
     public void settings(){
-    	size(500,500);
-    	//diegoSettings();
+    	size(1920,1080);
+        
     }
-
 
     // identical use to setup in Processing IDE except for size()
     public void setup(){
-        strokeWeight(5);
+        
     }
 
     // identical use to draw in Prcessing IDE
     public void draw(){
-        line(0, 0, 500, 500);
+    	rect(500,500,250,250);
+    	println("helo nib");
     }
-    
-    
-    private void diegoSettings() {
-    	client startClient = new client("127.0.0.1");
-    	startClient.startClient();
-    }
-    
 }
