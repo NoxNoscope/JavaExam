@@ -20,7 +20,7 @@ public class brain extends PApplet {
 
     // identical use to setup in Processing IDE except for size()
     public void setup(){
-        String teams = "The fuckknucles, Diengos, Salty Mercenaries, DimitriTryhard, DaddyTorben";
+        String teams = "The Fuckknuckles, Diengos, Salty Mercenaries, DimitriTryhard, DaddyTorben, Poop, Bish Boi";
         String[] list = split(teams, ',');
         saveStrings("teams.txt",list);
         
