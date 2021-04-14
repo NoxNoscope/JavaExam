@@ -32,6 +32,7 @@ public class Gui extends PApplet {
 	void gen(int x) {
 		for (int i = 0; i < x; i++) {
 			rect(30, (i) * 60, 55, 55, 7);
+			
 		}
 		
 	}
@@ -39,17 +40,20 @@ public class Gui extends PApplet {
 	void gen2(int x) {
 		for (int i = 0; i < x; i++) {
 			rect(30+55+55, (i) * 60, 55, 55, 7);
+			line(30+55+55, 30, 85, 30);
 		}
 	}
 	
 	void gen3(int x) {
 		for (int i = 0; i < x; i++) {
 			rect(30+220, (i) * 60, 55, 55, 7);
+			line(30+220-55, 30, 85+220-55, 30);
 		}
 	}
 	void gen4(int x) {
 		for (int i = 0; i < x; i++) {
 			rect(30+275+55, (i) * 60, 55, 55, 7);
+			line(30+275+55, 30, 85+275-55, 30);
 		}
 	}
 	
