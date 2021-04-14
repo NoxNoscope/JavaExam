@@ -18,7 +18,7 @@ public class Gui extends PApplet {
 
 // identical use to setup in Processing IDE except for size()
 	public void setup() {
-		gen(8);
+		gen(6);
 		gen2(4);
 		gen3(2);
 		gen4(1);
