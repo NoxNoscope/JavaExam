@@ -24,8 +24,8 @@ public class brain extends PApplet {
         String[] list = split(teams, '.');
         saveStrings("teams.txt",list);
         
-        String[] Poop = loadStrings("teams.txt");
-        println(Poop);
+        String[] Poopie = loadStrings("teams.txt");
+        println(Poopie);
     }
 
     // identical use to draw in Processing IDE
