@@ -1,16 +1,16 @@
- Fuck-Knuckles, 10
- Diengos,0
- Salty Mercenaries,0
- DimitriTryhard,0
- DaddyTorben,0
- London Gingers,0
- Grey Dodgers,0
- New York Hippos,1
- Sandmen,5
- Purple Koalas,8
- Pulse,0
- Purple Blue Bottles,0
- Hilarious Newts,0
- Devon Giraffes,0
- Red Flyers,0
- Conditioneers,0
+ Fuck-Knuckles,
+ Diengos,
+ Salty Mercenaries,
+ DimitriTryhard,
+ DaddyTorben,
+ London Gingers,
+ Grey Dodgers,
+ New York Hippos,
+ Sandmen,
+ Purple Koalas,
+ Pulse,
+ Purple Blue Bottles,
+ Hilarious Newts,
+ Devon Giraffes,
+ Red Flyers,
+ Conditioneers

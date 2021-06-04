@@ -18,17 +18,39 @@ public class Gui extends PApplet {
 
 // identical use to setup in Processing IDE except for size()
 	public void setup() {
-		gen(6);
+		/*String[] Poopie = loadStrings("teams.txt");
+		println(Poopie[1]);
+		
+		int numInPoopie = 0;
+		for (int i = 0; i < Poopie.length; i++) {
+			  
+            // Print all elements of List
+            println(Poopie[i]);
+            numInPoopie = i;
+        }
+		
+        if(numInPoopie % 2 == 0) {
+        	gen(numInPoopie);
+        }else {
+        	gen(numInPoopie-1);
+
+        }
+        
+        
 		gen2(4);
 		gen3(2);
-		gen4(1);
+		gen4(1);*/
+		
+		
+		
 	}
 
 // identical use to draw in Prcessing IDE
 	public void draw() {
 
 	}
-
+	
+	/*
 	void gen(int x) {
 		for (int i = 0; i < x; i++) {
 			rect(30, (i) * 60, 55, 55, 7);
@@ -57,7 +79,8 @@ public class Gui extends PApplet {
 		}
 	}
 	
-}
+*/
+	}
 	
 	
 	
